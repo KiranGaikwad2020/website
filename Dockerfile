@@ -1,4 +1,4 @@
-Installs Apache2 
+#Installs Apache2 
 FROM ubuntu
 RUN apt-get update -y
 RUN DEBIAN_FRONTEND="noninteractive" apt-get install tzdata -y
